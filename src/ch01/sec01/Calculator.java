@@ -1,4 +1,4 @@
-package ch01.sec10;
+package ch01.sec01;
 
 /*
 primitive type (원시타입/일반타입)
