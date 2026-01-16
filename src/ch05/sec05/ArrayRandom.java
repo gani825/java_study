@@ -16,6 +16,7 @@ public class ArrayRandom {
         int[] arr2 = new int[9];
         for (int i = 0; i < arr.length; i++) {
             arr2[i] = (int) (Math.random() * 9.0) + 1;
+
             for (int j = 0; j < i; j++) {
                 if (arr2[j] == arr2[i]) {
                     i--;

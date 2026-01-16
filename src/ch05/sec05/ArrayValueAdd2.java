@@ -12,6 +12,7 @@ public class ArrayValueAdd2 {
         int[] arr2 = new int[arr.length + 1];
 
         arr2[idx] = value;
+
         for (int i = idx; i < arr.length; i++) {
             arr2[i + 1] = arr[i];
         }
