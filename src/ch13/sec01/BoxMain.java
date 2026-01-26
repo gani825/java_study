@@ -2,7 +2,7 @@ package ch13.sec01;
 
 public class BoxMain {
     public static void main(String[] args) {
-        // 제네릭은 컴파일 될 때 타잉ㅂ이 결정된다.
+        // 제네릭은 컴파일 될 때 타입이 결정된다.
         Box<Integer> boxInt = new Box<>();
         boxInt.setContent(10);
         int result = boxInt.getContent();
