@@ -4,7 +4,6 @@ import java.util.UUID;
 
 public class PracticeMethod2 {
 
-
     public String getRandomFileName() {
         return UUID.randomUUID().toString();
     }
